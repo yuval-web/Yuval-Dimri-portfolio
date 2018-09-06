@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+
+
+
+
+
+      /*Desktop/global View*/
+	
+body{
+	font-family: 'Open Sans', sans-serif;
+	max-width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #DBDBDB;
+}
+
+
+
+.slicknav_menu {
+	display: none;
+}
+
+
+.col{
+	float: left;
+	padding: 1%;
+}
+
+
+.col-lg{
+	width: 31.3%
+}
+
+.col-lg img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+#menu{
+	float: right;
+	padding: 8px;
+	font-size: 18px;
+  }
+
+
+#menu li {
+	display: inline-block;
+	padding-left: 9px;
+	
+}
+
+
+
+
+
+
+#menu li a{
+	text-decoration: none;
+	color:#4e4e4e
+}
+
+
+
+
+
+
+
+
+
+header{
+	padding: 10px 20px 20px 20px;
+	
+	
+}
+
+
+
+
+.hero{
+	background-image:url(images/hero-background.jpg);
+	padding: 52px 0px 72px 72px;
+	background-size: cover;
+	
+}
+
+
+h1 {
+	color: #EEEEEE;
+	font-weight: 300;
+	font-size: 52px;
+	margin-bottom: -7px;
+}
+
+
+
+.subheading{
+	color: #FFFFFF;
+	font-weight: 800;
+	margin-bottom: -52px;
+}
+ 
+.headin-body-copy{
+	color: #F5F5F5;
+	margin-right: 20%;
+}
+
+
+.lets-talk{
+	color:#FFFFFF;
+	text-decoration: none;
+	background-color: #f1474c;
+	padding: 8px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+       /*Tablet View*/
+
+@media (max-width: 768px){ 
+	
+	
+	#menu li {
+	display: block;
+	text-align: center;
+}
+	
+	.col-md{
+		width: 48%;
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /*Mobile View*/
+
+@media (max-width: 400px){
+	
+	
+	.slicknav_menu {
+	display: block;
+     
+    }
+	
+	
+	
+	#menu{
+		display: none;
+		
+	}
+	
+	
+	header{
+	padding: 5px 20px 20px 0px;
+		margin-left: -14px
+}
+	
+	
+	.col-sm{
+		width: 100%;
+	}
+	
+	body{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+	.col{
+		padding: 0px;
+	}
+	
+	
+	
+	
+	
+}
