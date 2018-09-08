@@ -103,13 +103,16 @@ h1 {
 
 .subheading{
 	color: #FFFFFF;
-	font-weight: 800;
-	margin-bottom: -52px;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: -50px;
+	
 }
  
 .headin-body-copy{
 	color: #F5F5F5;
 	margin-right: 20%;
+	padding-bottom: 40px;
 }
 
 
@@ -118,11 +121,23 @@ h1 {
 	text-decoration: none;
 	background-color: #f1474c;
 	padding: 8px 30px;
+	
 }
 
 
 
 
+
+
+
+
+
+
+.title{
+	font-weight: 800;
+	font-size: 53px;
+	margin-top: -1px;
+}
 
 
 
